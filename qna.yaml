@@ -1,0 +1,117 @@
+version: 3
+domain: Human-Maching Teaming
+created_by: ddomkowski
+seed_examples:
+  - context: |
+      APL develops and evaluates new human-machine teaming (HMT) technologies 
+      to augment the modern warfighter and to enable the United States to hold 
+      a competitive edge over current and future adversaries. HMT refers to 
+      collaboration between humans and complex technologies to achieve a specific 
+      goal, and it relies on three equally important elements: the human, the 
+      machine, and the interactions between them. Because HMT innovations are often 
+      a novel combination of existing technologies, components are frequently 
+      rapidly prototyped and integrated so that new ideas can be evaluated before 
+      too much time or money is invested in creating a final design. However, 
+      improvements to current HMT prototyping practices could lead to even more 
+      savings.
+      In general, developing prototypes reduces costs because there is no concern 
+      with future modifications, extensions, or reuse when integrating components. 
+      Although this practice makes sense for most proof-of-concept efforts, HMT 
+      prototypes could benefit from these characteristics since many HMT concepts of 
+      operations share hardware and software components. Making these components 
+      modular and reusable could save costs across multiple prototyping efforts.
+    questions_and_answers:
+      - question: |
+          What is human-maching teaming (HMT)?
+        answer: |
+          Collaboration between humans and complex technologies to achieve a specific 
+          goal, and it relies on three equally important elements: the human, the 
+          machine, and the interactions between them.
+      - question: |
+          What three components make up human-maching teaming (HMT)?
+        answer: |
+          The human, the machine, and the interactions between them. 
+      - question: |
+          How can HMT innovations save on development time and costs?
+        answer: |
+          Developing HMT prototypes could lead to cost and time savings since many HMT 
+          concepts of operations share hardware and software components. Making these 
+          components modular and reusable could save costs across multiple prototyping 
+          efforts.
+  - context: |
+      To avoid these common pitfalls of prototyping, the Human-Machine Interfaces for 
+      Human-Machine Teaming (H4H) architecture facilitates component substitution and 
+      reuse while adding minimal design and implementation overhead. H4H's ultimate goal 
+      is to lower the time and cost required to integrate, modify, and extend HMT prototypes.
+      ## H4H OVERVIEW
+      H4H prototypes are built as a collection of small components serving distinct purposes. 
+      H4H's overall design goals are to ensure that these components can be replaced or 
+      updated as needed, to simplify or abstract the interfaces between them, and to enable 
+      reliable or semi-reliable transport of data across them. To achieve these goals, H4H 
+      uses an open microservices architecture and a publish-subscribe messaging framework 
+      built for distributed components communicating over User Datagram Protocol (UDP). The 
+      following subsections summarize the concepts and the reasoning behind the decisions that 
+      led to the final H4H design.
+    questions_and_answers:
+      - question: |
+          What is H4H?
+        answer: |
+          The Human-Machine Interfaces for Human-Machine Teaming (H4H) is an architecture that
+          facilitates component substitution and reuse while adding minimal design and 
+          implementation overhead. H4H's ultimate goal is to lower the time and cost required 
+          to integrate, modify, and extend HMT prototypes.
+      - question: 
+          What type of softwware components and frameworks does H4H promote?
+        answer: |
+          H4H implements a microservices architecture and a publish-subscribe messaging 
+          framework built for distributed components communicating over User Datagram Protocol 
+          (UDP).
+      - question: |
+          How does H4H avoid pitfalls of too much time and money required to build HMT systems?
+        answer: |
+          H4H facilitates component substitution and reuse while adding minimal design and 
+          implementation overhead.
+  - context: |
+      Many kinds of services could be introduced into the architecture. Some examples are a 
+      database, a machine learning model, or an adapter for a new hardware component. 
+      Regardless of the functionality they provide, all services are essentially software that 
+      any prototyping team using H4H should be able to deploy. For this reason, H4H uses Docker, 
+      a containerization platform for packaging applications into standardized executable 
+      components called containers.$^{2}$ Docker enables service functionality to be wholly 
+      contained within a modular, shareable package in a way that is largely independent
+      of the compute environment. If the packaged application works on one machine with Docker 
+      Engine, it should work on any other machine with a matching version of Docker Engine and 
+      the same CPU architecture (e.g., x86, ARM64). Packaged applications ready for execution, 
+      referred to as container images, can be shared in a repository and downloaded on demand. 
+      Docker enables a long-term solution for creating, managing, and storing versiontracked 
+      capabilities across efforts and projects.
+      Complementing the ability to containerize each service for easy execution, Kubernetes$^{3}$ 
+      provides a suite of powerful tools for managing the networking, monitoring service health, 
+      or creating the support infrastructure for the deployed containers.
+    questions_and_answers:
+      - question:
+          How would you summarize the possible components of H4H?
+      - answer:
+          All services are essentially software that any prototyping team using H4H should be able 
+          to deploy regardless of the functionality they povide.
+      - question: 
+          What is Docker?
+        answer: |
+          Docker is a containerization platform for packaging applications into standardized 
+          executable components called containers.$^{2}$ Docker enables service functionality 
+          to be wholly contained within a modular, shareable package in a way that is largely 
+          independent of the compute environment.
+      - question: |
+          How does Kubernetes enable easy execution of Docker container images?
+        answer: |
+          Kubernetes provides a suite of powerful tools for managing the networking, monitoring 
+          service health, or creating the support infrastructure for the deployed containers.
+
+document_outline: |
+  Information about a proposed pattern and framework to reduce time and cost required to develop 
+  human-machine teaming architectures. 
+document:
+  repo: https://github.com/juliadenham/Summit_knowledge
+  commit: 0a1f2672b9b90582e6115333e3ed62fd628f1c0f
+  patterns:
+    - phoenix_constellation.md
