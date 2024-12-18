@@ -111,7 +111,7 @@ document_outline: |
   Information about a proposed pattern and framework to reduce time and cost required to develop 
   human-machine teaming architectures. 
 document:
-  repo: https://github.com/juliadenham/Summit_knowledge
-  commit: 0a1f2672b9b90582e6115333e3ed62fd628f1c0f
+  repo: https://github.com/ddomkowski/DISA-JHU-APL_POC.git
+  commit: 9480d69f2022c6650871fa037596ebe21a26bb86
   patterns:
-    - phoenix_constellation.md
+    - 'documents_converted/37-02-FullBook.md'
