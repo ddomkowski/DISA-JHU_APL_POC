@@ -13,6 +13,7 @@ For this POC, we chose the two volumes of the technical digest that were publish
 
 ## Repository Structure
 The repository is organized as follows:
+```
 
 ├── data_prepartion
 │   ├── documents_collection
@@ -31,3 +32,4 @@ The repository is organized as follows:
 │   │               └── volume_37-02
 │   │                   ├── technical_digest_abstracts
 │   │                       ├── qna.yaml
+```
