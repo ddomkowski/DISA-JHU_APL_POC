@@ -1,0 +1,156 @@
+version: 3
+domain: Concept Design and Realization
+created_by: ddomkowski
+seed_examples:
+  - context: |
+      At the Johns Hopkins University Applied Physics Laboratory (APL), microelectronics 
+      packaging includes a wide range of microelectronics fabrication and assembly 
+      technologies. Conventional microelectronics packaging integrates electronics on a bare 
+      die level. At APL, microelectronics packaging has evolved to include packaging of 
+      customized miniature electrical, mechanical, and electromechanical devices. APL's 
+      engineers design, fabricate, assemble, inspect, screen, repair, and provide depackaging 
+      solutions for diverse projects and sponsors. Because of its technological capabilities 
+      and facilities, along with the skill sets of its staff members, APL is able to prototype 
+      and produce a broad range of devices, such as sensors, detectors, and communications and 
+      computing hardware, for mission-critical projects supporting research and development, 
+      defense, nearEarth and deep-space missions, and medicine. This article highlights 
+      microelectronics packaging capabilities at APL.
+    questions_and_answers:
+      - question: |
+          What does microelectronics packaging mean at Johns Hopkins University Applied 
+          Physics Laboratory (APL)?
+        answer: |
+          Microelectronics packaging includes a wide range of microelectronics fabrication and 
+          assembly technologies. At APL, microelectronics packaging has evolved to include 
+          packaging of customized miniature electrical, mechanical, and electromechanical 
+          devices.
+      - question: |
+          What role do APL engineers play with reard to microelectronics packaging?
+        answer: |
+          APL's engineers design, fabricate, assemble, inspect, screen, repair, and provide 
+          depackaging solutions for diverse projects and sponsors.
+      - question: |
+          What kinds of use cases and applications does APL's microelectronics packaging 
+          projects provide?
+        answer: |
+          APL is able to prototype and produce a broad range of devices, such as sensors, 
+          detectors, and communications and computing hardware, for mission-critical projects 
+          supporting research and development, defense, nearEarth and deep-space missions, 
+          and medicine. 
+  - context: |
+      Highly nonlinear and dynamic mechanical behavior involving impact, crash, and blast is 
+      common in some of the work done at the Johns Hopkins University Applied Physics Laboratory 
+      (APL). Modeling these behaviors involves finite element analysis (FEA) that reaches beyond 
+      typical static analyses. APL researchers are able to model complex nonlinear dynamic behavior 
+      without oversimplifying or converting the problem to a so-called equivalent static problem. 
+      Presented here is an overview of dynamics and nonlinearity and a brief summary of the options 
+      available for modeling these behaviors. The article concludes with several case studies that 
+      demonstrate how APL's expertise in this area contributes to the safety of our nation's 
+      warfighters and diplomatic personnel.
+      ## INTRODUCTION
+      Blast, impact, and ballistics are the legacies and the poster children of nonlinear dynamic 
+      finite element analysis (FEA). Sometimes termed hydrocodes because of their original uses for 
+      solving hydrodynamic problems$^{1}$ such as those researched in the Department of Energy labs, nonlinear dynamics FEA software programs, as well as the challenges in using them, are often associated with specialty users at national laboratories or in academia. In fact, researchers in APL's Research and Exploratory Development Department (REDD) and its progenitors have been tackling problems like these for years on projects that span the entire Laboratory. The field has earned a reputation for being difficult and expensive and requiring long lead time because  of the resources required to set up, debug, and run the simulations. However, REDD researchers have combined advances in software and hardware with their extensive experience to open the 
+      door to incorporating nonlinear dynamic FEA into the normal design and evaluation process.
+      ## BACKGROUND
+      ## Dealing with Dynamics
+      FEA has become ingrained in engineering design, especially with the advent of graphical user interface (GUI)-driven model development in legacy FEA software packages like ANSYS, which streamlined analyses for the average user. Most engineers and analysts with experience in structural FEA are familiar with static problems, and possibly even problems with a small degree of nonlinearity. However, most of these same analysts are just as unfamiliar with dynamic FEA. In fact, many will seemingly go the extra mile to convert a dynamic problem into a static one, or come up with static-equivalent loads to avoid a dynamic problem. 
+    questions_and_answers:
+      - question: |
+          What type of mechanical behavior does APL model instead of typical static analyses?
+        answer: |
+          APL models mechanical behaviors using finite element analysis (FEA) that reaches beyond 
+          typical static analyses. APL researchers are able to model complex nonlinear dynamic 
+          behavior and presents several several case studies that demonstrate how APL's expertise in this area contributes to the safety of our nation's warfighters and diplomatic personnel.
+      - question: | 
+          How has APL is approaching traditional FEA's repution of being difficult, expensive, and 
+          association with long lead times, especatially around the resources to run simulations? 
+        answer: |
+          APL's Research and Exploratory Development Department (REDD) researchers have combined 
+          advances in software and hardware in addtion to incorporating nonlinear dynamic FEA into 
+          the normal design and evaluation process.
+      - question: |
+          Traditionally and historically speaking, how will most FEA researchers try to simplify the
+          problems posed by dynamic and nonlinear FEA? 
+        answer: |
+          Many researchers will seemingly go the extra mile to convert a dynamic problem into a static one, or come up with static-equivalent loads to avoid a dynamic problem.
+  - context: |
+      Since its beginning, APL has successfully employed prototyping methods in its design and research process. Recent advances in RP methodologies, such as the use of additive manufacturing, metal additive manufacturing, quick ­turn machining, and artificial intelligence in devel­oping G­code, have changed the landscape of concept generation and project timelines for APL teams.
+      This article highlights how APL has leveraged mechani­ cal RP and early ­concept design methodology and used advanced design and fabrica­tion methods not previously possible to rapidly develop prototype hardware that can meet or exceed sponsor expectations. It also pro­vides examples of how design
+      Figure 1. TANG's three-phased approach.
+      <!-- image -->
+      thinking and the application of iterative design and RP have enabled the creation of innovative solutions to sponsors' problems.
+      ## TANG: DEMONSTRATING IDEATION THROUGH EARLY PROTOTYPING
+      In 2011, the US Navy established the TANG Pro­ gram (Tactical Advancements for the Next Generation) to leverage design and systems thinking methodologies to tackle human­centered and mission­focused chal­ lenges across the  Department of Defense. The TANG Program is a multi­organizational program, led by APL, that aims to bring together diverse perspectives across end users, stakeholders, and subject­matter experts to create impactful solutions that 
+      address pain points across those communities. The TANG Program focuses on challenges in the early stages of development, delivering front­end innovation solutions to sponsors. Through empathizing with the end user and developing a comprehensive understanding of the challenges and opportunity space, project teams work with end users, stakeholders, and subject ­matter experts to design different human­centered solutions and prototype concepts rapidly. 
+    questions_and_answers:
+      - question: |
+          What advances has APL made in rapid prototyping?
+      - answer: |
+          Since its beginning, APL has successfully employed prototyping methods in its design and research process. Recent advances in RP methodologies, such as the use of additive manufacturing, metal additive manufacturing, quick ­turn machining, and artificial intelligence in devel­oping G­code, have changed the landscape of concept generation and project timelines for APL teams.
+      - question: | 
+          What is TANG?
+        answer: |
+          TANG (Tactical Advancements for the Next Generation) is a program developed by the US Navy in 2011 that leverages design and systems thinking methodologies to tackle human­centered and mission­focused chal­ lenges across the  Department of Defense. The TANG Program is a multi­organizational program, led by APL, that aims to bring together diverse perspectives across end users, stakeholders, and subject­matter experts to create impactful solutions that 
+      address pain points across those communities.
+      - question: |
+          What challenges does TANG aim to address and how does TANG address them?
+        answer: |
+          The TANG Program focuses on challenges in the early stages of development, delivering front­end innovation solutions to APL sponsors. Through empathizing with the end user and developing a comprehensive understanding of the challenges and opportunity space, project teams work with end users, stakeholders, and subject ­matter experts to design different human­centered solutions and prototype concepts rapidly.
+
+  - context: |
+      ## HARDWARE REVERSE ENGINEERING
+      Reverse engineering is the practice of attempting to recreate an object that already exists. With the current tools, reverse engineering is often used to bring physical objects into the digital space for purposes such as:
+      - · Replicating a product or component exactly
+      - · Reproducing a product or component with additional functionality
+      - · Redesigning a product or component for improved performance
+      - · Repackaging a product or component
+      - · Repairing or replacing damaged components
+      - · Regenerating surfaces or geometry for use in a virtual environment, CAD, or finite element modeling (FEM)
+      The resulting virtual representation of a reverseengineered part or component can be included in that part's digital twin environment. "A digital twin is a virtual representation of an object or system that spans its lifecycle, is updated from real-time data, and uses simulation, machine learning and reasoning to help decision-making." 6
+      Before technological advances such as CAD, reverse engineering primarily focused on physically rebuilding an object using rudimentary measuring tools like calipers and scales, making molds to copy a part, or recreating a part's geometry using photographs. Reverse engineering tools have evolved to encompass multiple advanced techniques to capture 3-D data of varying resolution. New areas of expertise are required to gather and process the data. Modern reverse engineering tools and techniques include coordinate measuring machines, laser scanning, photogrammetry, and x-ray computed tomography (CT). These capabilities generate data points that can produce CAD geometry for a variety of outputs.
+    questions_and_answers:
+      - question: |
+          What is reverse engineering and what are some of examples of how it is utilized in modern day projects?
+      - answer: |
+          Reverse engineering is the practice of attempting to recreate an object that already exists. With the current tools, reverse engineering is often used to bring physical objects into the digital space for purposes such as:
+          - · Replicating a product or component exactly
+          - · Reproducing a product or component with additional functionality
+          - · Redesigning a product or component for improved performance
+          - · Repackaging a product or component
+          - · Repairing or replacing damaged components
+          - · Regenerating surfaces or geometry for use in a virtual environment, CAD, or finite element modeling (FEM)
+      - question: |
+          What is a digital twin and how it used for reverse engineering? 
+        answer: |
+          A digital twin is a virtual representation of an object or system that spans its lifecycle, is updated from real-time data, and uses simulation, machine learning and reasoning to help decision-making. The resulting virtual representation of a reverseengineered part or component can be included in that part's digital twin environment.
+      - question: |
+          How have advancements in CAD contributed to developments in reverese engineering?
+        answer: |
+          Before technological advances such as CAD, reverse engineering primarily focused on physically rebuilding an object using rudimentary measuring tools like calipers and scales, making molds to copy a part, or recreating a part's geometry using photographs. Reverse engineering tools have evolved to encompass multiple advanced techniques to capture 3-D data through coordinate measuring machines, laser scanning, photogrammetry, and x-ray computed tomography (CT).
+
+  - context: |
+       This article describes APL's critical manufacturing contributions to four recent programs: (1) the Double Asteroid Redirection Test (DART); (2) the Boundary Layer Transition (BOLT) hypersonic flight experiment; (3) the Interstellar Mapping and Acceleration Probe (IMAP); and (4) the Europa Clipper and Martian Moons eXploration (MMX).
+       ## RAPID REDESIGN AND FABRICATION FOR NASA'S DART MISSION
+       NASA's DART$^{1}$ was the world's first planetary defense test mission. APL built and operated the DART spacecraft and managed the DART mission for NASA's Planetary Defense Coordination Office as a project of the agency's Planetary Missions Program Office. As the spacecraft was being prepared for its November 2021 launch, issues with the mirror assembly on its single instrument, the Didymos Reconnaissance and Asteroid Camera for Optical navigation (DRACO), were discovered during vibration testing. The camera's mirror sustained damage because the hanger it was bonded to was not flexible enough to withstand the vibrations that would occur during launch. Engineers from APL collaborated with NASA Goddard Space Flight Center engineers and determined that an undercut on the mounting surfaces would provide the required flexibility, but they were unsure what was possible within the short time frame before the launch. Many discussions among engineers and fabricators culminated in a solution: a custom undercut tool. The fabrication team designed a four-flute form keyseat cutter (Figure 1), and a custom tooling company manufactured it according to the design specifications. Using this tool, the fabricator was able to modify the hanger so that it could correctly mount the mirror.
+       The process of fabricating the flexible hanger involved many steps. The material for the part, a nickel-iron alloy, offers thermal expansion and good strength but is difficult to machine. Therefore, all machining was completed on a five-axis milling machine
+    questions_and_answers:
+      - question: |
+          What is DART?
+      - answer: |
+          The Double Asteroid Redirection Test (DART) the world's first planetary defense test mission. APL built and operated the DART spacecraft and managed the DART mission for NASA's Planetary Defense Coordination Office as a project of the agency's Planetary Missions Program Office.
+      - question: |
+          What issues arose from DART's launch testing?
+        answer: |
+          As the spacecraft was being prepared for DART's November 2021 launch, issues with the mirror assembly on its single instrument, the Didymos Reconnaissance and Asteroid Camera for Optical navigation (DRACO), were discovered during vibration testing. The camera's mirror sustained damage because the hanger it was bonded to was not flexible enough to withstand the vibrations that would occur during launch.
+      - question: |
+          How did engineers solve for the virbation issues during the DART launch testing?
+        answer: |
+          During DART launch testing, the Didymos Reconnaissance and Asteroid Camera for Optical navigation (DRACO) mirror sustained damage because the hanger it was bonded to was not flexible enough to withstand the vibrations that would occur during launch. Engineers and fabricators from APL and NASA Goddard Space Flight Center culminated in a custom undercut tool as the solution to the vibrations. The APL fabrication team designed a four-flute form keyseat cutter, and a custom tooling company manufactured it according to the design specifications. Using this tool, the fabricator was able to modify the hanger so that it could correctly mount the mirror and withstand the vibrations. 
+document_outline: |
+  The Johns Hopkins University Applied Physics Laboratory (APL) Concept Design and Realization Branch offers an array of engineering, design, and fabrication capabilities that support the Laboratory's mission and broad sponsored work. Until 2023, the Johns Hopkins APL Technical Digest had not published a comprehensive review of the branch's work in more than two decades. During those years, manufacturing technologies and the Lab's capabilities have advanced significantly, as has the complexity of the challenges APL seeks to solve. This issue, the final in a series of two, further highlights APL's contributions in hardware design, mechanical and electrical fabrication, systems integration, and pioneering manufacturing science. 
+document:
+  repo: https://github.com/ddomkowski/DISA-JHU-APL_POC.git
+  commit: 9480d69f2022c6650871fa037596ebe21a26bb86
+  patterns:
+    - 'documents_converted/37-03-FullBook.md'
