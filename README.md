@@ -1,7 +1,7 @@
 # RHEL AI/InstructLab POC for DISA/JHU APL
-This repository contains a Proof-of-Concept (POC) focused on alignment tuning a IBM Grantite Large Language Model (LLM) using InstructLab. The model incorporates  public data published by the Johns Hopkins University's Applied Physics Laboaratory (JHU APL), a not-for-profit university-affiliated research center in Laurel, Maryland. APL addresses complex research, engineering, and analytical challenges for national security and space exploration.
+This repository contains a Proof-of-Concept (POC) focused on alignment tuning a IBM Grantite Large Language Model (LLM) using InstructLab. The model incorporates  public data published by the Johns Hopkins University's Applied Physics Laboaratory (JHU APL), a not-for-profit university-affiliated research center in Laurel, Maryland. APL addresses complex research, engineering, and analytical challenges for national security and space exploration. APL publishes its research in many formats, which include periodicals that can be downloaded as .pdf documents.
 
-## Project Overview
+## Project Goals
 The objective of this POC is to fine-tune an LLM to comprehend and generate content relevant to the research areas covered in the APL Technical Digest. By leveraging InstructLab and Granite, we aim to create a specialized model that can assist researchers in the Department of Defense community with greater performance than a general-purpose LLM. 
 
 ## Training Data and Knowledge
@@ -11,7 +11,7 @@ For this POC, we chose the two volumes of the technical digest that were publish
 * Vol. 37, No. 2 (2024) - "APL Research and Development" https://www.jhuapl.edu/sites/default/files/2024-09/37-02-FullBook.pdf
 * Vol. 37, No. 3 (2024) - "Concept Design and Realization Branch—Part II" https://www.jhuapl.edu/sites/default/files/2024-09/37-03-FullBook.pdf
 
-## Repository Structure
+## Repository/Taxonomy Structure
 The repository is organized as follows:
 ```
 
